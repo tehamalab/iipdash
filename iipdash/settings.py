@@ -383,6 +383,11 @@ SPECTACULAR_SETTINGS = {
     "REDOC_DIST": "SIDECAR",
     "SWAGGER_UI_DIST": "SIDECAR",
     "SWAGGER_UI_FAVICON_HREF": "SIDECAR",
+    # UI settings for handling large responses
+    "SWAGGER_UI_SETTINGS": {
+        "syntaxHighlight": False,
+        "displayRequestDuration": True,
+    },
 }
 
 
